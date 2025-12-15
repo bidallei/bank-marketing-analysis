@@ -34,6 +34,7 @@ from real marketing calls conducted between 2008 and 2010.
 - Need for appropriate evaluation metrics beyond accuracy
 
 ## Project Structure
+```
 bank-marketing-analysis/
 │
 ├── data/
@@ -47,7 +48,7 @@ bank-marketing-analysis/
 │
 ├── README.md
 ├── requirements.txt
-
+```
 
 ## Methodology
 1. **Data Loading & Inspection**

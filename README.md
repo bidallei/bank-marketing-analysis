@@ -18,11 +18,11 @@ to the product in order to:
 - Increase campaign conversion rates
 
 ## Dataset
-- Source: UCI Machine Learning Repository
-- Name: Bank Marketing Data Set
-- Observations: 41,188
-- Features: 20 input variables + 1 target variable
-- Target variable: `y` (subscription to term deposit: yes / no)
+- **Source:** UCI Machine Learning Repository
+- **Name:** Bank Marketing Data Set
+- **Observations:** 41,188
+- **Features:** 20 input variables + 1 target variable
+- **Target variable:** `y` (subscription to term deposit: yes / no)
 
 The dataset contains demographic, financial, and campaign-related information
 from real marketing calls conducted between 2008 and 2010.
@@ -41,10 +41,10 @@ bank-marketing-analysis/
 │ └── bank-additional-full.csv
 │
 ├── notebooks/
-│ ├── 01_data_loading.ipynb
-│ ├── 02_exploratory_data_analysis.ipynb
-│ ├── 03_feature_engineering.ipynb
-│ ├── 04_modeling_and_evaluation.ipynb
+│   ├── 01_data_loading.ipynb          # Initial inspection and data validation
+│   ├── 02_exploratory_data_analysis.ipynb  # Descriptive statistics and visualization
+│   ├── 03_feature_engineering.ipynb   # Preprocessing and train-test split
+│   ├── 04_modeling_and_evaluation.ipynb # Model training, evaluation, and interpretation
 │
 ├── README.md
 ├── requirements.txt
@@ -76,6 +76,7 @@ bank-marketing-analysis/
 - Call duration is the most predictive feature, but introduces data leakage
 - Previous successful campaigns significantly increase conversion probability
 - Clients with fewer contact attempts tend to have higher acceptance rates
+- **Model Performance:** The final Random Forest model achieved an **ROC AUC of 0.78** and identified potential subscribers with **28% recall** while maintaining a precision of **57%**, providing a scalable foundation for targeted marketing.
 
 ## Business Insights
 - Focusing on large population segments (e.g., administrative and blue-collar workers)
@@ -84,11 +85,10 @@ bank-marketing-analysis/
 - Historical campaign outcomes are strong indicators of future success
 
 ## Technologies Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib / Seaborn
-- Jupyter / Google Colab
+- **Data Manipulation & Analysis:** Pandas, NumPy
+- **Machine Learning:** Scikit-learn
+- **Visualization:** Matplotlib, Seaborn
+- **Environment:** Jupyter, Google Colab
 
 ## Notes
 This project was adapted from an academic assignment and reorganized to present

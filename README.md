@@ -54,22 +54,18 @@ bank-marketing-analysis/
 1. **Data Loading & Inspection**
    - Dataset structure, dimensions, and data types
    - Identification of categorical and numerical variables
-
 2. **Exploratory Data Analysis (EDA)**
    - Distribution analysis of numerical features
    - Conversion rate analysis by demographic and financial categories
    - Identification of high-impact variables
-
 3. **Feature Engineering**
    - Encoding of categorical variables using One-Hot Encoding
    - Handling of class imbalance
    - Discussion and control of data leakage risks
-
 4. **Predictive Modeling**
    - Model: Random Forest Classifier
    - Train-test split with stratification
    - Balanced class weights
-
 5. **Evaluation**
    - Confusion Matrix
    - Precision, Recall, F1-score
